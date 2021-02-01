@@ -7,3 +7,22 @@
 body{
     color: #0A083A;
 }
+
+.navbar-brand
+{
+    color: #0A083A;
+}
+
+.nav-link,
+.login-btn{
+    color: #69696b;
+    font-size: 1rem;
+}
+
+.start-btn{
+    border: 1px solid #69696b;
+    border-radius: 2rem;
+    color: #306EFE;
+    font-size: 1rem;
+
+}
