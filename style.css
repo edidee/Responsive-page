@@ -26,3 +26,21 @@ body{
     font-size: 1rem;
 
 }
+
+
+
+.first-col h1{
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+.start-btn-main{
+    background-color: #306EFE;
+    color: #fff;
+    border-radius: 2rem;
+    
+}
+
+.icon{
+    color: #FE8D46;
+}
