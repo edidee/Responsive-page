@@ -44,3 +44,17 @@ body{
 .icon{
     color: #FE8D46;
 }
+
+.back-drop{
+    width: 70%;
+    height: 70vh;
+    background-color: #E5E5E5;
+    position: relative;
+    margin-left: 2rem;
+}
+
+.back-drop img{
+      position: absolute;
+      top: -26px;
+      left: -10px;
+}
