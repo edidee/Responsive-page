@@ -13,6 +13,10 @@ body{
     color: #0A083A;
 }
 
+.navbar-toggler-icon{
+    color: #0A083A;
+}
+
 .nav-link,
 .login-btn{
     color: #69696b;
@@ -27,11 +31,14 @@ body{
 
 }
 
+.first-col{
+    text-align: center;
+}
 
 
 .first-col h1{
-    font-weight: 800;
-    font-size: 4rem;
+    font-weight: 700;
+    font-size: 3rem;
 }
 
 .start-btn-main{
@@ -41,20 +48,66 @@ body{
     
 }
 
-.icon{
+.icons{
+    display: none;
+}
+
+/* .back-drop{
+    width: 90%;
+    height: auto;
+    background-color: #E5E5E5;
+    position: relative;
+    margin-left: 4rem;
+    /* margin: 0 auto; 
+} */
+
+.back-drop img{
+      position: absolute;
+      top: -26px;
+      left: -10px;
+}
+
+@media screen and (min-width: 1024px) {
+    .icons{
+        display: block;
+    }
+
+  .icon{
     color: #FE8D46;
+
+    
 }
 
 .back-drop{
-    width: 70%;
-    height: 70vh;
+    width: 90%;
+    height: auto;
     background-color: #E5E5E5;
     position: relative;
-    margin-left: 2rem;
+    margin-left: 4rem;
+    /* margin: 0 auto; */
 }
 
 .back-drop img{
       position: absolute;
       top: -26px;
       left: -10px;
+}
+
+.first-col{
+    text-align: left;
+}
+
+.first-col h1{
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+
+}
+
+
+
+@media screen and (min-width: 1280px) {
+  
+
 }
