@@ -58,14 +58,49 @@ body{
     background-color: #E5E5E5;
     position: relative;
     margin-left: 4rem;
-    /* margin: 0 auto; 
+   
 } */
 
 .back-drop img{
-      position: absolute;
+      /* position: absolute;
       top: -26px;
-      left: -10px;
+      left: -10px; */
+      margin: 0 auto;
+      text-align: center;
 }
+
+.p-1{
+    color: #B6B6B6;
+}
+
+.p-1 span{
+    font-size: 2rem;
+   
+}
+
+.p-1 span,
+.p-2{
+    color: #0A083A;
+     font-weight: 700;
+}
+
+.p-2,
+.p-3{
+    font-size: 0.9rem;
+    
+}
+
+.p-3{
+    color: #7a7a7a;
+}
+
+.p-1,
+.p-2,
+.p-3{
+    padding: 0 !important;
+    margin-block-end: 0em;
+}
+
 
 @media screen and (min-width: 1024px) {
     .icons{
@@ -78,20 +113,6 @@ body{
     
 }
 
-.back-drop{
-    width: 90%;
-    height: auto;
-    background-color: #E5E5E5;
-    position: relative;
-    margin-left: 4rem;
-    /* margin: 0 auto; */
-}
-
-.back-drop img{
-      position: absolute;
-      top: -26px;
-      left: -10px;
-}
 
 .first-col{
     text-align: left;
@@ -101,6 +122,20 @@ body{
     font-weight: 800;
     font-size: 4rem;
 }
+.back-drop{
+    width: 70%;
+    height: 40vh;
+    background-color: #E5E5E5;
+    position: relative;
+    margin-left: 4rem;
+    margin: 0 auto;
+}
+
+.back-drop img{
+      position: absolute;
+      top: -26px;
+      left: -10px;
+}
 
 
 }
@@ -109,5 +144,14 @@ body{
 
 @media screen and (min-width: 1280px) {
   
+    .back-drop{
+        height: 70vh;
+    }
+}
 
+@media screen and (min-width: 1440px) {
+  
+    .back-drop{
+        height: 70vh;
+    }
 }
