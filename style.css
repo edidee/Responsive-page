@@ -15,7 +15,7 @@ body{
 }
 
 .navbar-toggler-icon{
-    color: #0A083A;
+    fill: #0A083A;
 }
 
 .nav-link,
@@ -54,21 +54,13 @@ body{
 }
 
 /* .back-drop{
-    width: 90%;
-    height: auto;
-    background-color: #E5E5E5;
-    position: relative;
-    margin-left: 4rem;
+    
+    margin: 0 auto;
    
 } */
 
-.back-drop img{
-      /* position: absolute;
-      top: -26px;
-      left: -10px; */
-      margin: 0 auto;
-      text-align: center;
-}
+
+     
 
 .p-1{
     color: #B6B6B6;
