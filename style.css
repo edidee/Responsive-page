@@ -126,12 +126,12 @@ body{
     font-size: 4rem;
 }
 .back-drop{
-    width: 70%;
+    width: 75%;
     height: 40vh;
     background-color: #E5E5E5;
     position: relative;
-    margin-left: 4rem;
-    margin: 0 auto;
+    margin-left: 7rem;
+    /* margin: 0 auto; */
 }
 
 .back-drop img{
